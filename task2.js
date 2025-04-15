@@ -1,6 +1,6 @@
 export class Player {
-  constructor() {
-   
+  constructor(name, level) { //Se proporcionan los argumentos 
+   this.name = name;
+   this.level = level;
   }
-    
   }
